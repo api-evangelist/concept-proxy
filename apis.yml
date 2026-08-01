@@ -1,7 +1,24 @@
 aid: proxy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/proxy.png
 name: Proxy
-description: Proxy is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Proxy (Y Combinator, Summer 2016) was a San Francisco digital-identity
+  startup founded by Denis Mars and Simon Ratner that built a mobile and wearable
+  digital wallet for payments, identity, and authentication, later expanding into
+  biometric identity verification and vaccine-credential verification. The company
+  was acquired by OURA in 2023; the proxy.com domain no longer resolves to an active
+  product and there is no public developer platform, API, or documentation surface
+  to enrich. This profile is retained as a historical/acquired-company record.'
 url: https://raw.githubusercontent.com/api-evangelist/proxy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +26,28 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: oura
+x-acquired-year: 2023
+x-yc-batch: S16
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Digital Identity
+- Authentication
+- Wearables
+- Access Control
+- Payments
+- Acquired
+- Y Combinator
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
