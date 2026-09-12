@@ -30,7 +30,7 @@ description: 'Proxy (Y Combinator, Summer 2016) was a San Francisco digital-iden
   was acquired by OURA in 2023; the proxy.com domain no longer resolves to an active
   product and there is no public developer platform, API, or documentation surface
   to enrich. This profile is retained as a historical/acquired-company record.'
-url: https://raw.githubusercontent.com/api-evangelist/proxy/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/concept-proxy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
